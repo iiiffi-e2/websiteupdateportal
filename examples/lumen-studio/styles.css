@@ -1,0 +1,42 @@
+:root {
+  --accent: #9a3412;
+  --ink: #1c1917;
+  --paper: #f6f1e8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Georgia, "Iowan Old Style", serif;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+.site-header,
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.eyebrow {
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 0.75rem;
+  color: var(--accent);
+}
+
+h1 {
+  font-size: clamp(3rem, 8vw, 5rem);
+  line-height: 0.95;
+  margin: 0.4rem 0 1rem;
+}
+
+a {
+  color: var(--accent);
+}
